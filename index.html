@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="카운트 다운">
+    <title>카운트 다운</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>남은 복무 기간</header>
+    <content>
+        <p id="message"></p>
+    </content>
+    <footer>전문연구요원 <a href="https://www.buzzvil.com/">@Buzzvil</a></footer>
+
+    <script src="countdown.js"></script>
+    <script>
+    countDown(new Date('Mar 12, 2021 00:00:00'), document.getElementById('message'));
+    </script>
+</body>
+</html>
+
